@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Smoke Testing">
+	<listeners>
+		<listener class-name="utilities.Listeners"></listener>
+	</listeners>
+	<test name="POM Test Cases#">
+		<classes>
+			<class name="executable.LoginExe"></class>
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->
